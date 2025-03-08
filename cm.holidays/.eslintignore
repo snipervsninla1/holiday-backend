@@ -1,0 +1,6 @@
+node_modules
+dist
+.eslintrc
+coverage
+package.json
+package-lock.json

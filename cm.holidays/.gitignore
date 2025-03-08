@@ -1,0 +1,6 @@
+/node_modules
+/src/entities/types/DTO/
+.idea
+.env.development
+src/migrations
+dist/
