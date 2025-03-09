@@ -15,9 +15,9 @@ export const AppDataSource = new DataSource({
 
   maxQueryExecutionTime: 1000,
   logging:
-    process.env.NODE_ENV === "development"
-      ? ["error", "warn", "migration", "schema"]
-      : ["warn", "error", "migration"],
+      process.env.NODE_ENV === "development"
+          ? ["error", "warn", "migration", "schema"]
+          : ["warn", "error", "migration"],
   logger: "advanced-console",
 
   entities: [`${__dirname}/**/entities/*.{ts,js}`],
